@@ -1,0 +1,29 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header svg {
+	width: 15vw;
+	height: 15vw;
+}
+.header h1 {
+	font-family: 'BerkshireSwashRegular', sans-serif;
+	font-weight: normal;
+	font-size: 7.5vw;
+	margin: 0 4vw;
+	background: -webkit-linear-gradient(#0bb1d3, #9f2fff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 840px) {
+	.header {
+		padding: 2rem 1rem;
+	}
+}
+@media only screen and (max-width: 560px) {
+	.header {
+		padding: 1.5rem 0.7rem;
+	}
+}

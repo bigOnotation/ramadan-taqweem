@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'BerkshireSwashRegular';
+	src: url('./BerkshireSwash-Regular.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'RajdhaniRegular';
+	src: url('./Rajdhani-Regular.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'MrBedfortRegular';
+	src: url('./MrBedfort-Regular.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'BellotaBold';
+	src: url('./Bellota-Bold.ttf')  format('truetype');
+}

@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+
+import Header from './components/header'
+import Duas from './components/duas'
+import Grid from './components/grid'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			<Header />
+			<Duas fajr={true}/>
+			<Grid />
+			<Duas />
+			<footer>
+				<p className="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</p>
+				<a href="https://t.me/bigOnotation">&copy; Muhammad Najimov 2020</a>
+			</footer>
+		</div>
+	)
 }
 
-export default App;
+export default App

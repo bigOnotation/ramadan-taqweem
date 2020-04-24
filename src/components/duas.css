@@ -1,0 +1,51 @@
+.duas {
+	margin: 3vh 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.duas p {
+	font-size: 3vw;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'BellotaBold', sans-serif;
+	margin-bottom: 3vh;
+	line-height: 1.5;
+	font-weight: bold;
+}
+.duas .title {
+	color: orange;
+}
+.sod {
+	background-color: rgba(0,0,0,0.2);
+	padding: 0.1rem 0.4rem;
+	border-radius: 0.3rem;
+}
+.waw {
+	background-color: rgba(0,0,200,0.2);
+	padding: 0.1rem 0.4rem;
+	border-radius: 0.3rem;
+}
+.dod {
+	background-color: rgba(200,0,0,0.2);
+	padding: 0.1rem 0.4rem;
+	border-radius: 0.3rem;
+}
+.ayn {
+	background-color: rgba(0,200,0,0.2);
+	padding: 0.1rem 0.4rem;
+	border-radius: 0.3rem;
+}
+@media only screen and (max-width: 840px) {
+	.duas p {
+		font-size: 9vw;
+	}
+	.duas .title {
+		font-size: 7vw;
+	}
+	.duas .arabic {
+		color: navy;
+	}
+}

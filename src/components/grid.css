@@ -45,6 +45,28 @@
 	animation-fill-mode: forwards;
 	animation-delay: 200ms;
 }
+.content:hover .index {
+	animation: hoverindex;
+	animation-duration: 200ms;
+	animation-fill-mode: forwards;
+}
+.index {
+	font-family: 'RajdhaniRegular', sans-serif;
+	font-size: 4vw;
+	background: rgba(0,100,200,0.3);
+	color: rgba(255,255,255,0.9);
+	border-top-left-radius: 3vw;
+	border-bottom-left-radius: 3vw;
+	position: absolute;
+	min-width: 25%;
+	top: 0;
+	right: 0;
+	padding: 2vw;
+	z-index: 30;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .day {
 	font-family: 'MrBedfortRegular', sans-serif;
 	font-size: 32vw;
@@ -91,6 +113,11 @@
 		width: calc((100vw - 6vw) / 2);
 		height: calc((100vw - 6vw) / 2);
 	}
+	.index {
+		font-size: 5vw;
+		min-width: 25%;
+		padding: 1vh;
+	}
 	.day {
 		font-size: 50vw;
 	}
@@ -100,6 +127,15 @@
 		color: rgba(255,255,255,0.1);
 		position: absolute;
 		z-index: 99;
+	}
+}
+
+@keyframes hoverindex {
+	0% {
+		right: 0;
+	}
+	100% {
+		right: -100%;
 	}
 }
 

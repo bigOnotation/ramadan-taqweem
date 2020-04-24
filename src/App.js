@@ -14,7 +14,7 @@ function App() {
 			<Duas />
 			<footer>
 				<p className="ayah">ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ</p>
-				<a href="https://t.me/bigOnotation">&copy; Muhammad Najimov 2020</a>
+				<a href="https://t.me/bigOnotation">&copy; Big O Notation 2020</a>
 			</footer>
 		</div>
 	)
